@@ -4,7 +4,7 @@ require 'irb'
 require 'irb/completion'
 
 desc("Open IRB console")
-task name do
+task :console do
   ARGV.clear
   IRB.start
 end
